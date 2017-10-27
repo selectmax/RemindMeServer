@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6fd325-1657-4372-8e76-5852cc1d8321" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/repository/RemindRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/service/ReminderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/service/ReminderServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/max/remindme/server/ApplicationInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/max/remindme/server/ApplicationInitializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/max/remindme/server/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/max/remindme/server/config/WebConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/max/remindme/server/controller/ReminderController.class" afterPath="$PROJECT_DIR$/target/classes/com/max/remindme/server/controller/ReminderController.class" />
@@ -12,10 +9,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.max.remindme.server-1.0-SNAPSHOT/WEB-INF/classes/com/max/remindme/server/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/com.max.remindme.server-1.0-SNAPSHOT/WEB-INF/classes/com/max/remindme/server/config/WebConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.max.remindme.server-1.0-SNAPSHOT/WEB-INF/classes/com/max/remindme/server/controller/ReminderController.class" afterPath="$PROJECT_DIR$/target/com.max.remindme.server-1.0-SNAPSHOT/WEB-INF/classes/com/max/remindme/server/controller/ReminderController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/ApplicationInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/ApplicationInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/config/DatabaseConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/config/DatabaseConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/controller/ReminderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/controller/ReminderController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/entity/Remind.java" afterPath="$PROJECT_DIR$/src/main/java/com/max/remindme/server/entity/Remind.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -975,7 +968,7 @@
       <option name="presentableId" value="Default" />
       <updated>1508951542705</updated>
       <workItem from="1508951549004" duration="218000" />
-      <workItem from="1508952390658" duration="17243000" />
+      <workItem from="1508952390658" duration="17426000" />
     </task>
     <task id="LOCAL-00001" summary="Added WebConfig and database with db.properties">
       <created>1508960353631</created>
@@ -1005,11 +998,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509096966162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added ReminderService">
+      <created>1509102117542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509102117545</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17461000" />
+    <option name="totallyTimeSpent" value="17644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1105,7 +1105,8 @@
     <MESSAGE value="Added new properties including hibernate.properties" />
     <MESSAGE value="Created class Remind, add bd with first table" />
     <MESSAGE value="Reqest returns remind (Mock)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reqest returns remind (Mock)." />
+    <MESSAGE value="Added ReminderService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ReminderService" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
